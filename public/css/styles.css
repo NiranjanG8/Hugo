@@ -1,0 +1,47 @@
+/* Default Light Mode */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header, footer {
+    padding: 1rem;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Dark Mode */
+html.dark body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+html.dark header, html.dark footer {
+    background-color: #1e1e1e;
+}
+
+html.dark button {
+    background-color: #ff5722;
+    color: #ffffff;
+}
+
+html.dark button:hover {
+    background-color: #e64a19;
+}
